@@ -1,0 +1,18 @@
+<div class="signup-container">
+  <h3>Sign up</h3>
+  <form class="signup-form" action="/api/users" method="post">
+    <input id="firstname-form" type="text" name="user[firstname]" placeholder="...first name">
+    <input id="lastname-form" type="text" name="user[lastname]" placeholder="...last name">
+    <input id="email-form" type="text" name="user[email]" placeholder="...email">
+    <input type="submit" value="Sign up">
+  </form>
+
+</div>
+
+<div id='users-list'></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.serializeJSON/2.6.1/jquery.serializejson.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore.js" charset="utf-8"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.2/backbone.js" charset="utf-8"></script>
+<script src="/js/scripts.js" charset="utf-8"></script>

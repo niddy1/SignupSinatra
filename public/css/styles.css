@@ -1,0 +1,23 @@
+body{
+  background-image: url('http://2.bp.blogspot.com/_Hj4neqKqbSw/TBcmh6EZscI/AAAAAAAAB2o/j7I20QOgyMw/s1600/Maddoxbros:rose1.jpg');
+  background-repeat: no-repeat;
+  position: absolute;
+  max-width: 800px;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+#users-list{
+  display: inline-block;
+
+  top: 220px;
+  left: 20px;
+
+}
+.signup-container{
+
+  display: inline-block;
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}

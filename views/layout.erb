@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="/css/skeleton.css">
+    <link rel="stylesheet" href="/css/styles.css">
+
+    <script type="text/template" id="user-template">
+
+      <h5> <%%=firstname%> <%%=lastname%> <%%=email%> </h5>
+      <button type="button"class="remove">X</button>
+    </script>
+  </head>
+  <body>
+    <div class="container">
+      <%=yield%>
+
+    </div>
+  </body>
+</html>
